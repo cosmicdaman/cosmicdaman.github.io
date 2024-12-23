@@ -1,0 +1,33 @@
+body {
+	background-image: url('/images/bg.png');
+}
+
+.box {
+	border: 3px solid cornflowerblue;
+	border-radius: 15px;
+	padding: 100px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	font-family: sans-serif;
+}
+
+.top {
+	border: 3px solid cornflowerblue;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+a:link {color: dodgerblue}
+a:visited {color: rgb(0, 50, 100)}
+a:hover {color: rgb(116, 186, 255)}
+a:active {color: rgb(0, 105, 209)}
